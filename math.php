@@ -5,17 +5,25 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-
+    <title>PHP-Demo</title>
 </head>
 <body>
 
 <?php
+//Math basics
 
-$title = "Awesome Stuff in here";
+$add_all = function( $n1, $n2 ){
+    $sum = ($n1 + $n2) + 1000;
+	echo $sum;
+
+};
+$add_all( 2, 5);
+
+
+
 ?>
 
-<h1><?php echo 'this is the title: ' . $title; ?></h1>
+
 
 </body>
 </html>
