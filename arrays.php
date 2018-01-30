@@ -31,7 +31,6 @@ unset($person["address"]["purok"]);
 print_r($person["address"]);
 
 
-
 ?>
 
 </body>
