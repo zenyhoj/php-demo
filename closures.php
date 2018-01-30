@@ -65,7 +65,7 @@ function get_posts_by_title($posts, $post_title){ //$posts is an array of posts,
         return $data->title === $post_title; //title here is the actual post title property of the post.
     });
 }
-var_dump(get_posts_by_title($posts, 'The Seven Monsters'));
+echo get_posts_by_title($posts, 'The Seven Monsters');
 
 ?>
 
