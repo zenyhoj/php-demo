@@ -51,6 +51,33 @@ function list_of_numbers( $data ){
 var_dump($greater_than_equal_four);
 
 
+//use case - filtering posts in wordpress
+
+$post1 = new StdClass;
+$post1->title = 'This is my Title';
+$post1->ID = 1;
+$post1->author = 'Joe Balingit';
+
+$post2 = new StdClass;
+$post2->title = 'This is my Title';
+$post2->ID = 2;
+$post2->author = 'Joe Balingit';
+
+
+$post3 = new StdClass;
+$post3->title = 'This is my Title';
+$post1->ID = 3;
+$post3->author = 'Eddie Apatan';
+
+$posts = [$post1, $post2, $post3];
+
+$filtered_posts = array_filter ( $posts, function($data){
+    return $data->ID === 3;
+} );
+var_dump($filtered_posts);
+
+
+
 ?>
 
 </body>
