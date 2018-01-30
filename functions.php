@@ -19,6 +19,23 @@ function sayHi(){
 	echo "hello joe";
 }
 init();
+echo "<br>";
+//return values in functions
+function add_all( $n1, $n2 ){
+    return $n1 + $n2;
+}
+$result = add_all(200, 100); //this function contains the returned value of the function.
+$new_result = add_all(300, $result); //add_all function first result could be use as parameter.
+echo $result . "<br>";
+echo $new_result;
+
+
+
+
+
+
+
+
 
 echo "<br>";
 //using closure in php

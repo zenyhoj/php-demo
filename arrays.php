@@ -70,7 +70,7 @@ $post3->author = 'Eddie Apatan';
 
 $posts = [$post1, $post2, $post3];
 
-$filtered_posts = array_filter ( $posts, function($data){
+$filtered_posts = array_filter ( $posts, function($data){ //$data is the temporary holder of the $posts
     return $data->ID === 3;
 } );
 var_dump($filtered_posts);
