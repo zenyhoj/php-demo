@@ -33,7 +33,7 @@ echo "<br>";
 foreach ($new_array as $key => $value){
 
             echo "<br>";
-            print_r(" {$key} => {$value} ");
+            print_r(" {$key} => {$value} "); //[] could also be used. [$key] => [$value]
 }
 
 
