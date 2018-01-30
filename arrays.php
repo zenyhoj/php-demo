@@ -52,7 +52,6 @@ var_dump($greater_than_equal_four);
 
 
 //use case - filtering posts in wordpress
-
 $post1 = new StdClass;
 $post1->title = 'This is my Title';
 $post1->ID = 1;
