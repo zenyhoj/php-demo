@@ -60,9 +60,9 @@ function get_posts_by_ID( $posts, $author_ID){
 var_dump(get_posts_by_ID($posts, 3));
 
 //get posts by title
-function get_posts_by_title($posts, $post_title){
+function get_posts_by_title($posts, $post_title){ //$posts is an array of posts, $post_title is the title of the post that must be passed in
     return array_filter($posts, function($data) use ($post_title){
-        return $data->title === $post_title;
+        return $data->title === $post_title; //title here is the actual post title property of the post.
     });
 }
 var_dump(get_posts_by_title($posts, 'The Seven Monsters'));

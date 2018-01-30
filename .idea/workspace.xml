@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab06e022-1bb8-4e9d-bc75-3cc2a0fe0bf2" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/arrays.php" afterPath="$PROJECT_DIR$/arrays.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/closures.php" afterPath="$PROJECT_DIR$/closures.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,11 +24,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="31" column="24" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="31" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="closures.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/closures.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="393">
-              <caret line="67" column="59" lean-forward="false" selection-start-line="67" selection-start-column="59" selection-end-line="67" selection-end-column="59" />
+            <state relative-caret-position="304">
+              <caret line="69" column="2" lean-forward="true" selection-start-line="69" selection-start-column="2" selection-end-line="69" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="arrays.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/arrays.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="70" column="34" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="70" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -154,7 +172,7 @@
       <workItem from="1517194704795" duration="3833000" />
       <workItem from="1517198776937" duration="353000" />
       <workItem from="1517199204068" duration="11536000" />
-      <workItem from="1517271447636" duration="12938000" />
+      <workItem from="1517271447636" duration="13447000" />
     </task>
     <task id="LOCAL-00001" summary="using while and foreach in iterating arrays">
       <created>1517282364726</created>
@@ -174,7 +192,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28660000" />
+    <option name="totallyTimeSpent" value="29169000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -330,26 +348,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/functions.php">
+    <entry file="file://$PROJECT_DIR$/arrays.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="31" column="24" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="31" selection-end-column="24" />
+        <state relative-caret-position="169">
+          <caret line="70" column="34" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="70" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/arrays.php">
+    <entry file="file://$PROJECT_DIR$/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="148">
-          <caret line="70" column="34" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="70" selection-end-column="34" />
+        <state relative-caret-position="382">
+          <caret line="31" column="24" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="31" selection-end-column="24" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/closures.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="67" column="59" lean-forward="false" selection-start-line="67" selection-start-column="59" selection-end-line="67" selection-end-column="59" />
+        <state relative-caret-position="304">
+          <caret line="69" column="2" lean-forward="true" selection-start-line="69" selection-start-column="2" selection-end-line="69" selection-end-column="2" />
           <folding />
         </state>
       </provider>
