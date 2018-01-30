@@ -30,6 +30,26 @@ echo "<br>";
 unset($person["address"]["purok"]);
 print_r($person["address"]);
 
+//array_filter — Filters elements of an array using a callback function
+/* Iterates over each value in the array passing them to the callback function. If the callback function returns true,
+the current value from array is returned into the result array. Array keys are preserved. */
+//takes the array as first argument and passed in the array into an anonymous function
+// with temp variable ex. $list as temp holder of the array for evaluation
+$numbers = [2, 4, 6, 8, 10];
+$greater_than_four = array_filter( $numbers, function($lists){
+    return $lists > 4;
+
+});
+var_dump($greater_than_four);
+
+//or using a named function and passed the function name as 'callback'
+$greater_than_equal_four = array_filter( $numbers, 'list_of_numbers');
+
+function list_of_numbers( $data ){
+    return $data >= 4;
+}
+var_dump($greater_than_equal_four);
+
 
 ?>
 
