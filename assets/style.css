@@ -1,0 +1,12 @@
+.member-access {
+    padding: 20px;
+    background: darkgray;
+}
+
+.member-access input, label{
+    margin-top: 1.15rem;
+    font-size: 1.2rem;
+}
+.member-access label {
+    color: aliceblue;
+}
