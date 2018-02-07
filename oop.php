@@ -43,7 +43,7 @@ require_once('helpers.php');
      private $user_id;
      private $status;
 
-     //contructs an instance of the class User
+     //Constructs an instance of the class User
      public function __construct( $newUser, $Email_1, $Email_2 = null) {
         $this->username = $newUser;
         $this->preferred_email = $Email_1;

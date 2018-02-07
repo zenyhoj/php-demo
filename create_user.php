@@ -32,7 +32,7 @@ echo "UserID: " . $admin->GetUserId() . "Username: " . $admin->GetUserName();
 echo "<br>";
 
 $super_admin = new User('joe', 'joebalingit0515@gmail.com');
-echo "UserID: " . $super_admin->GetUserId() . "Username: " . $super_admin->GetUserName();
+echo "UserID: " . $super_admin->GetUserId() . " " . "Username: " . $super_admin->GetUserName() . " " . "Email: " .$super_admin->GetPreferredEmail();
 
 echo "<br>";
 print_r($admin);
