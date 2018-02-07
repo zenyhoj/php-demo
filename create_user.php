@@ -34,6 +34,9 @@ echo "<br>";
 $super_admin = new User('joe', 'joebalingit0515@gmail.com');
 echo "UserID: " . $super_admin->GetUserId() . "Username: " . $super_admin->GetUserName();
 
+$contributor = new User('edmar', 'edmar@gmail.com', 'edmar@yahoo.com');
+echo "UserID: " . $contributor->GetUserId() . "Username: " . $contributor->GetUserName();
+
 echo "<br>";
 print_r($admin);
 echo "<br>";
@@ -41,6 +44,8 @@ print_r($super_admin);
 
 var_dump($admin);
 var_dump($super_admin);
+var_dump($contributor);
+
 
 
 
