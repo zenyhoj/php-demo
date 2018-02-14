@@ -9,5 +9,13 @@
 </head>
 <body>
 
+<form action="form_process.php" method="post">
+
+    <input type="text" name="username" placeholder="Enter your username here" />
+    <input type="password" name="password" placeholder="Your password here" />
+    <input type="submit" name="submit" value="Submit">
+
+</form>
+
 </body>
 </html>
