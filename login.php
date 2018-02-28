@@ -19,7 +19,7 @@
                 <h3>Subscribe to our Newsletter!</h3>
             </div>
             <div class="col-lg-6 login-form">
-                <form action="login_process.php" method="post">
+                <form action="dbcon.php" method="post">
                     <div class="form-group">
                         <label for="username">Username</label>
                         <input type="text" name="username" class="form-control" id="username" aria-describedby="emailHelp" placeholder="Username" required>
