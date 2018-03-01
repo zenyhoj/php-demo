@@ -5,6 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<!--    <link rel="stylesheet" href="assets/css/bootstrap.min.css">-->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <title>Create User Form</title>
 </head>
@@ -14,15 +15,15 @@
 <?php
 //Creating a new user
 include "dbcon.php";
-$query = "SELECT * FROM users";
+$query = "SELECT * FROM users ORDER BY id DESC";
 $result = mysqli_query($conn, $query);
 if(!$result) {
     die('Query failed!' . mysqli_error($conn));
 }
 ?>
 
-<table class="table table-dark">
-    <thead>
+<table class="table">
+    <thead class="thead-light">
     <tr>
         <th scope="col">ID</th>
         <th scope="col">Username</th>
