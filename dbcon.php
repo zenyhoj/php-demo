@@ -1,6 +1,6 @@
 <?php
 //mysql connection
-$conn = mysqli_connect('localhost', 'root', '', 'test');
+$GLOBALS['conn']= mysqli_connect('localhost', 'root', '', 'test');
 
 
 

@@ -11,17 +11,7 @@
 
 
 <?php
-$username = $_POST['username'];
-$password = $_POST['password'];
-//Creating a new user
-include "dbcon.php";
-$query = "INSERT INTO users (username, password) VALUES ('$username', '$password')";
-$result = mysqli_query($conn, $query);
-if(!$result) {
-    die('Query failed!' . mysqli_error($conn));
-} else {
-    echo "<h3>{$username} added successfully</h3>";
-}
+include "functions.php";
 ?>
 
 <form action="create.php" method="post">
